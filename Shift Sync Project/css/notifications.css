@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: rgb(0, 60, 255);
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.notification-content p {
+    margin: 0;
+}
+
+.notification-actions i {
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.viewed {
+    opacity: 0.1;
+}
+
+.bookmarked {
+    color: rgb(58, 182, 204)
+}
+
+.fas.fa-trash:hover {
+    color: red;
+}
+
+/* You might need to adjust the icons size */
+.far, .fas {
+    font-size: 1.2em;
+}

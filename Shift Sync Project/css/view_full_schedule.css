@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff; /* White background */
+}
+
+.header {
+    background-color: #333; /* Black background */
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+
+.menu li a:hover {
+    background-color: rgb(0, 60, 255); /* Darker background on hover */
+}
+
+/* Continue from your existing styles... */
+
+/* Styles for the main content area */
+.main-content {
+    padding: 20px; /* Add padding for spacing */
+    margin-top: 50px; /* Provide some space from the header */
+}
+
+/* FullCalendar specific styles */
+#calendar {
+    max-width: 900px; /* Maximum width of the calendar, adjust as needed */
+    margin: 0 auto; /* Center the calendar in the main content area */
+    padding: 20px; /* Padding around the calendar */
+    background-color: #fff; /* White background */
+    border-radius: 8px; /* Rounded corners for the calendar container */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Shadow for some depth */
+}
+
+/* Ensure the calendar is visible with a minimum height */
+.fc .fc-view-harness {
+    min-height: 600px; /* Minimum height for the calendar view */
+    border: 1px solid #ccc;
+}
+/* This will change the background and text color of the calendar header */
+.fc-header-toolbar {
+    background-color: #333;
+    color: white;
+}
+
+/* This will change the background color of the days in the calendar */
+.fc-daygrid-day {
+    background-color: #f8f8f8;
+}
+
+/* Style the today button */
+.fc-today-button {
+    background-color: rgb(0, 60, 255);
+    color: white;
+}
+
+/* Style the buttons in the header */
+.fc-button {
+    background-color: rgb(0, 60, 255);
+    color: rgb(0, 60, 255);
+}
+
+/* Style the button hover state */
+.fc-button:hover {
+    background-color: #444;
+}
+
+/* Add more of your custom styles here */
+

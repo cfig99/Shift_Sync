@@ -1,0 +1,142 @@
+/* Reset margins and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* Header (previously sidebar) styling */
+.header {
+    width: 100%;
+    background-color:  #333;
+    color: #fff;
+    padding: 15px 20px;
+}
+
+/* Navigation menu */
+.menu {
+    list-style-type: none;
+    display: flex; /* Align menu items horizontally */
+    justify-content: left; /* Align items to the start of the container */
+    align-items: center;
+}
+
+.menu li {
+    margin-right: 20px; /* Spacing between menu items */
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    transition: background-color 0.3s;
+}
+
+.menu li a:hover {
+    background-color: rgb(0, 60, 255);
+}
+
+/* Profile picture */
+.profile-pic {
+    width: 50px; /* Adjust size as needed */
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ddd; /* Placeholder color */
+    margin-right: auto; /* Pushes the profile pic to the end of the nav bar */
+}
+
+/* Main content styling */
+.main-content {
+    padding: 20px;
+}
+
+/* Rest of your styles... */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.dashboard-container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.shift-sync-title {
+    color: #007bff; /* Warm blue color */
+    font-size: 24px;
+}
+
+.tagline {
+    font-size: 16px;
+}
+
+.availability-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.availability-form label,
+.availability-form input[type="date"],
+.availability-form input[type="time"],
+.availability-form select,
+.availability-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.availability-form input[type="checkbox"],
+.availability-form input[type="radio"] {
+    margin-right: 10px;
+}
+
+.availability-form .save-button {
+    display: block;
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.availability-form .save-button:hover {
+    background-color: #0056b3;
+}
